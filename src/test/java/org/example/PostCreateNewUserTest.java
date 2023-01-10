@@ -43,6 +43,7 @@ public class PostCreateNewUserTest {
 //        validations
         assertThat(response.statusCode()).isEqualTo(201);
         assertThat(createdAtYear).isEqualTo(ZonedDateTime.now().getYear());
+        assertThat(createUserResponse.getId()).isNotNull();
         assertThat(response.timeIn(TimeUnit.MILLISECONDS)).isLessThan(100L);
     }
 
