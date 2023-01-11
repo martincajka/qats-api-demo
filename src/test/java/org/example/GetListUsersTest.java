@@ -52,7 +52,7 @@ public class GetListUsersTest {
     }
 
     @Test
-    public void totalFieldRepresentsActualTotalCountOfUSersTest() {
+    public void totalFieldRepresentsActualTotalCountOfUsersTest() {
         Integer total = users.getTotal();
         assertThat(total).isEqualTo(users.getData().size());
     }

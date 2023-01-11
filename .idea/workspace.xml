@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94f043f6-0162-466c-bd34-de16fd0816ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/GetListUsersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PostCreateNewUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dto/CreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dto/CreateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dto/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dto/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+    <list default="true" id="94f043f6-0162-466c-bd34-de16fd0816ef" name="Changes" comment="added assertion for id">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GetListUsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/GetListUsersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PostCreateNewUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PostCreateNewUserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +59,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostCreateNewUserTest.totalFieldTest (1)">
+  <component name="RunManager" selected="JUnit.PostCreateNewUserTest">
     <configuration name="GetListUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qats-api-interview" />
       <extension name="coverage">
@@ -82,22 +71,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.GetListUsersTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetListUsersTest.lastNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qats-api-interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.GetListUsersTest" />
-      <option name="METHOD_NAME" value="lastNamesTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +87,21 @@
       <option name="MAIN_CLASS_NAME" value="org.example.GetListUsersTest" />
       <option name="METHOD_NAME" value="totalFieldRepresentsActualTotalCountOfUSersTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostCreateNewUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qats-api-interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PostCreateNewUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostCreateNewUserTest" />
         <item itemvalue="JUnit.PostCreateNewUserTest.totalFieldTest (1)" />
         <item itemvalue="JUnit.PostCreateNewUserTest.totalFieldTest" />
         <item itemvalue="JUnit.GetListUsersTest" />
         <item itemvalue="JUnit.GetListUsersTest.totalFieldRepresentsActualTotalCountOfUSersTest" />
-        <item itemvalue="JUnit.GetListUsersTest.lastNamesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +157,26 @@
       <option name="presentableId" value="Default" />
       <updated>1673369308514</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1673380467319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673380467319</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added assertion for id">
+      <created>1673380719550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673380719550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="added assertion for id" />
+    <option name="LAST_COMMIT_MESSAGE" value="added assertion for id" />
   </component>
 </project>
